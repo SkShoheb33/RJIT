@@ -1,6 +1,6 @@
 let togglebtn = document.getElementById('toggle');
 let listItems = document.getElementById('listItems');
-// listItems.style.display = "none";
+listItems.style.display = "none";
 let isListVisible = false;
 
 togglebtn.addEventListener('click', () => {

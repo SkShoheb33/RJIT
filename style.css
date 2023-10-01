@@ -2,6 +2,10 @@
     display: flex !important;
 }
 
+.b {
+    display: none !important;
+}
+
 #listItems {
     transition: 30s ease-in-out;
 }
@@ -15,4 +19,10 @@
 #programmesItems,
 #carriersItems {
     display: none;
+}
+
+.logo {
+    background-image: url('Assets/logo.png');
+    background-position: center;
+    background-size: cover;
 }
