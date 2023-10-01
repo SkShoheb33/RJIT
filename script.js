@@ -45,3 +45,4 @@ document.getElementById('carriers').addEventListener('click', () => {
     closeAll();
     carrierItemVisible = !carrierItemVisible;
 })
+AOS.init();
