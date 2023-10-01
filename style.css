@@ -1,5 +1,5 @@
 .b {
-    display: none;
+    display: none !important;
 }
 
 .a:hover .b {
