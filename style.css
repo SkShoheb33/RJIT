@@ -1,0 +1,22 @@
+.b {
+    display: none;
+}
+
+.a:hover .b {
+    display: flex;
+}
+
+#listItems {
+    transition: 30s ease-in-out;
+}
+
+.navInnerItems:hover {
+    color: #1e3a8a !important;
+    background: white;
+}
+
+#aboutItems,
+#programmesItems,
+#carriersItems {
+    display: none;
+}
