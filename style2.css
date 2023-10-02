@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.events {
+    background-image: url('./Assets/event1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.viewbtn {
+    border: 1px solid transparent;
+}
+
+.viewbtn:hover {
+    background: #fff !important;
+    color: black !important;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.card:hover .time {
+    display: flex;
+}
