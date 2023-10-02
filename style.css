@@ -6,6 +6,18 @@
     display: none !important;
 }
 
+body {
+    /* font-family: 'Bricolage Grotesque', sans-serif; */
+    /* font-family: 'Cedarville Cursive', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Bricolage Grotesque', sans-serif; */
+    /* font-family: 'Cedarville Cursive', cursive; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
 #listItems {
     transition: 30s ease-in-out;
 }
