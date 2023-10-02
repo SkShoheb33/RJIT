@@ -39,3 +39,17 @@
     display: none;
     scroll-behavior: smooth;
 }
+
+.scroll-bar-remove {
+    overflow-x: hidden;
+}
+
+button {
+    border: 1px solid black;
+}
+
+button:hover {
+    background: #fff !important;
+    color: black !important;
+    font-weight: bold;
+}
