@@ -1,0 +1,115 @@
+.a:hover .b {
+    display: flex !important;
+}
+
+.b {
+    display: none !important;
+    /* background-color: #1e3a8a !important; */
+    background: rgba(0, 0, 0, 0.8) !important;
+    color: white !important;
+}
+
+.b:hover {
+    display: flex !important;
+}
+
+.c:hover {
+    border-bottom: 2px solid #004aad;
+}
+
+body {
+    /* font-family: 'Bricolage Grotesque', sans-serif; */
+    /* font-family: 'Cedarville Cursive', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Bricolage Grotesque', sans-serif; */
+    /* font-family: 'Cedarville Cursive', cursive; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+#listItems {
+    transition: 30s ease-in-out;
+}
+
+.navInnerItems:hover {
+    color: #1e3a8a !important;
+    background: white;
+}
+
+#aboutItems,
+#programmesItems,
+#carriersItems {
+    display: none;
+}
+
+.logo {
+    background-image: url('Assets/logo240.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.wave {
+    clip-path: polygon(100% 0%, 0% 0%, 0.00% 47.11%, 2.00% 43.11%, 4.00% 39.56%, 6.00% 36.65%, 8.00% 34.59%, 10.00% 33.50%, 12.00% 33.44%, 14.00% 34.42%, 16.00% 36.38%, 18.00% 39.20%, 20.00% 42.69%, 22.00% 46.65%, 24.00% 50.81%, 26.00% 54.93%, 28.00% 58.73%, 30.00% 61.99%, 32.00% 64.49%, 34.00% 66.08%, 36.00% 66.67%, 38.00% 66.20%, 40.00% 64.72%, 42.00% 62.31%, 44.00% 59.13%, 46.00% 55.37%, 48.00% 51.28%, 50.00% 47.11%, 52.00% 43.11%, 54.00% 39.56%, 56.00% 36.65%, 58.00% 34.59%, 60.00% 33.50%, 62.00% 33.44%, 64.00% 34.42%, 66.00% 36.38%, 68.00% 39.20%, 70.00% 42.69%, 72.00% 46.65%, 74.00% 50.81%, 76.00% 54.93%, 78.00% 58.73%, 80.00% 61.99%, 82.00% 64.49%, 84.00% 66.08%, 86.00% 66.67%, 88.00% 66.20%, 90.00% 64.72%, 92.00% 62.31%, 94.00% 59.13%, 96.00% 55.37%, 98.00% 51.28%, 100.00% 47.11%);
+}
+
+.wave-r {
+    clip-path: polygon(100% 100%, 0% 100%, 0.00% 47.11%, 2.00% 43.11%, 4.00% 39.56%, 6.00% 36.65%, 8.00% 34.59%, 10.00% 33.50%, 12.00% 33.44%, 14.00% 34.42%, 16.00% 36.38%, 18.00% 39.20%, 20.00% 42.69%, 22.00% 46.65%, 24.00% 50.81%, 26.00% 54.93%, 28.00% 58.73%, 30.00% 61.99%, 32.00% 64.49%, 34.00% 66.08%, 36.00% 66.67%, 38.00% 66.20%, 40.00% 64.72%, 42.00% 62.31%, 44.00% 59.13%, 46.00% 55.37%, 48.00% 51.28%, 50.00% 47.11%, 52.00% 43.11%, 54.00% 39.56%, 56.00% 36.65%, 58.00% 34.59%, 60.00% 33.50%, 62.00% 33.44%, 64.00% 34.42%, 66.00% 36.38%, 68.00% 39.20%, 70.00% 42.69%, 72.00% 46.65%, 74.00% 50.81%, 76.00% 54.93%, 78.00% 58.73%, 80.00% 61.99%, 82.00% 64.49%, 84.00% 66.08%, 86.00% 66.67%, 88.00% 66.20%, 90.00% 64.72%, 92.00% 62.31%, 94.00% 59.13%, 96.00% 55.37%, 98.00% 51.28%, 100.00% 47.11%);
+}
+
+.scroll-bar-remove::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+.scroll-bar-remove {
+    overflow-x: hidden;
+}
+
+button {
+    border: 1px solid black;
+}
+
+button:hover {
+    background: #fff !important;
+    color: black !important;
+    font-weight: bold;
+}
+
+.events {
+    background-image: url('./Assets/event1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.viewbtn {
+    border: 1px solid transparent;
+}
+
+.viewbtn:hover {
+    background: #fff !important;
+    color: black !important;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.card:hover .time {
+    display: flex;
+}
+
+#c1 {
+    background: linear-gradient(to right, #004aad, #cb6ce6);
+}
+
+#c2 {
+    background-color: darkgreen;
+}
+
+#c3 {
+    background-color: darkgoldenrod;
+}
