@@ -7,71 +7,52 @@
     <title>Wave</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
-    <div class="flex flex-col items-center p-6  md:p-7">
-        <div class=" text-2xl md:text-4xl font-bold">Events</div>
-        <div class="flex justify-between flex-col md:flex-row w-full md:w-4/5 my-3 md:my-8  ">
-            <div class="card hover:cursor-pointer my-2 flex flex-col w-full h-[420px]  md:h-[480px] md:w-[30%]">
-                <div class="events relative h-2/4">
-                    <div class="time hidden absolute bottom-0 left-0 w-full justify-center bg-[rgba(0,0,0,0.6)] py-2 text-white text-xl font-bold">
-                        11:00PM | Cyber Block
+    <div class="flex flex-col bg-[#001f59] text-white p-3 pb-6 md:p-10">
+        <div class="flex text-3xl md:text-4xl  w-full items-center justify-center mb-2 md:mb-6">News board</div>
+        <div class="flex flex w-full  justify-around">
+            <!-- news -->
+            <div class="flex text-xs md:text-xl w-full md:w-3/5  flex-col h-[40vh] justify-around">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-start">
+                        <div class="mx-2">&gt;</div>
+                        <div> ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, laudantium.</div>
                     </div>
+                    <i class="fa-solid fa-arrow-right mx-1 md:mx-4"></i>
                 </div>
-                <div class="text-sm md:text-lg md:my-2 p-3">
-                    <div class="font-bold md:my-1 text-[#001F59]">Webathon
-                        <span>| HTML & CSS</span>
+                <hr>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-start">
+                        <div class="mx-2">&gt;</div>
+                        <div> ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, laudantium.</div>
                     </div>
-                    <div class="font-semibold my-2">ISTE
-                        <span>| Offline</span>
-                    </div>
-                    <div class="font-light">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cumque libero reiciendis?
-                    </div>
-                    <button class="viewbtn text-white justify-center w-1/3 p-1 bg-orange-600 font-bold mt-4 flex ">View more</button>
+                    <i class="fa-solid fa-arrow-right mx-1 md:mx-4"></i>
                 </div>
-            </div>
-            <div class="card hover:cursor-pointer my-2 flex flex-col w-full h-[420px]  md:h-[480px] md:w-[30%]">
-                <div class="events relative h-2/4">
-                    <div class="time hidden absolute bottom-0 left-0 w-full justify-center bg-[rgba(0,0,0,0.6)] py-2 text-white text-xl font-bold">
-                        11:00PM | Cyber Block
-                    </div>
+                <hr>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-start">
+                        <div class="mx-2">&gt;</div>
+                        <div> ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, laudantium.</div>
+                    </div> <i class="fa-solid fa-arrow-right mx-1 md:mx-4"></i>
                 </div>
-                <div class="text-sm md:text-lg md:my-2 p-3">
-                    <div class="font-bold md:my-1 text-[#001F59]">Webathon
-                        <span>| HTML & CSS</span>
+                <hr>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-start">
+                        <div class="mx-2">&gt;</div>
+                        <div> ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, laudantium.</div>
                     </div>
-                    <div class="font-semibold my-2">ISTE
-                        <span>| Offline</span>
-                    </div>
-                    <div class="font-light">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cumque libero reiciendis?
-                    </div>
-                    <button class="viewbtn text-white justify-center w-1/3 p-1 bg-orange-600 font-bold mt-4 flex ">View more</button>
+                    <i class="fa-solid fa-arrow-right mx-1 md:mx-4"></i>
                 </div>
             </div>
-            <div class="card hover:cursor-pointer my-2 flex flex-col w-full h-[420px]  md:h-[480px] md:w-[30%]">
-                <div class="events relative h-2/4">
-                    <div class="time hidden absolute bottom-0 left-0 w-full justify-center bg-[rgba(0,0,0,0.6)] py-2 text-white text-xl font-bold">
-                        11:00PM | Cyber Block
-                    </div>
-                </div>
-                <div class="text-sm md:text-lg md:my-2 p-3">
-                    <div class="font-bold md:my-1 text-[#001F59]">Webathon
-                        <span>| HTML & CSS</span>
-                    </div>
-                    <div class="font-semibold my-2">ISTE
-                        <span>| Offline</span>
-                    </div>
-                    <div class="font-light">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cumque libero reiciendis?
-                    </div>
-                    <button class="viewbtn text-white justify-center w-1/3 p-1 bg-orange-600 font-bold mt-4 flex ">View more</button>
-                </div>
+            <!-- quotes -->
+            <div class="hidden md:flex rounded-lg w-1/5 text-7xl font-bold text-[#001f69] bg-white p-4 text-center items-center ">
+                Aspire to Inspire
             </div>
-
         </div>
     </div>
 </body>
