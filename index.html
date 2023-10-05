@@ -22,7 +22,9 @@
 </head>
 
 <body class="h-[100vh] scroll-bar-remove">
-    
+    <div class="loading-page">
+        <div class="z-10 loader flex"></div>
+    </div>
     <div class="flex relative w-full flex-col scroll-bar-remove">
         <!-- navbar -->
         <div id="navbar" class="sticky top-0 left-0 z-10 bg-white flex justify-between md:justify-start w-full h-[10vh] md:h-[15vh] items-center">
@@ -43,21 +45,21 @@
                         PROGRAMMES
                     </div>
                     <div class="b flex rounded-lg  absolute top-[10vh] w-[200px] p-3 rounded-sm text-md flex-col font-normal bg-white">
-                        <div class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        <a href="./rjitIncubation.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                             RJIT Incubation
-                        </div>
-                        <div class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        </a>
+                        <a href="./cyberSpark.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                             Cyber spark
-                        </div>
-                        <div class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        </a>
+                        <a href="./itKnowledgePark.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                             IT Knowledge Park
-                        </div>
+                        </a>
                         <a href="./startUpIndia.html" target="_blank" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                             Build India 2023
                         </a>
-                        <div class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        <a href="./falcon.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                             FALCON
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="a  h-full  flex w-1/6 relative flex-col justify-center ">
@@ -99,9 +101,9 @@
                 <a href="./partners.html" target="_blank" class="flex  c  flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
                     PARTNERS
                 </a>
-                <div class="flex c  flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
+                <a href="#footer" class="flex c  flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
                     CONNECT
-                </div>
+                </a>
             </div>
             <!-- mobile screen -->
             <div class="md:hidden mx-8 relative">
@@ -126,11 +128,11 @@
                             <div class="flex flex-col w-full ">
                                 <div id="programmes">PROGRAMMES</div>
                                 <div id="programmesItems" class="flex flex-col leading-loose mt-3 w-full ">
-                                    <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">RJIT Incubation</div>
-                                    <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Cyber Spark</div>
-                                    <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">IT Knowledge Park</div>
-                                    <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Build India 2023</div>
-                                    <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">FALCON</div>
+                                    <a href="./rjitIncubation.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">RJIT Incubation</a>
+                                    <a href="./cyberSpark.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Cyber Spark</a>
+                                    <a href="./itKnowledgePark.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">IT Knowledge Park</a>
+                                    <a href="./startUpIndia.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Build India 2023</a>
+                                    <a href="falcon.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">FALCON</a>
                                 </div>
                             </div>
                             <i class="fa-solid fa-caret-down"></i>
@@ -146,15 +148,15 @@
                             <i class="fa-solid fa-caret-down"></i>
                         </div>
                         <div class="flex tracking-widest justify-between w-full p-2 border-t-2">
-                            <div class="flex">
-                                adds/
-                            </div>
+                            <a href="./partners.html" class="flex">
+                                Partners
+                            </a>
 
                         </div>
                         <div class="flex tracking-widest justify-between w-full p-2 border-t-2">
-                            <div class="flex">
+                            <a href="#footer" class="flex">
                                 CONNECT
-                            </div>
+                            </a>
 
                         </div>
                     </div>
@@ -474,7 +476,7 @@
             </button>
         </div>
         <!-- footer -->
-        <div class="flex items-center w-full pl-7 bg-black text-white flex-col ">
+        <div id="footer" class="flex items-center w-full pl-7 bg-black text-white flex-col ">
             <div class="flex md:flex-row flex-col items-start my-10 h-full w-full justify-center ">
                 <!-- logo + links -->
                 <div class="flex flex-col my-2 md:flex-row md:w-3/5 justify-around items-center ">

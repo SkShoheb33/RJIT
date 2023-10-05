@@ -53,4 +53,14 @@ setInterval(() => {
     logoname.innerHTML = (logoname.innerHTML === a[0]) ? a[1] : a[0];
 
 }, 5000);
+
+
+window.addEventListener('load',()=>{
+    document.querySelector('.loading-page').classList.add("hidden");
+    document.querySelector('loading-page').addEventListener("transitionend",()=>{
+        document.body.removeChild(document.querySelector('loading-page'));
+    })
+})
+
+
 AOS.init();
