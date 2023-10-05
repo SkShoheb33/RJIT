@@ -114,3 +114,20 @@ button:hover {
 #c3 {
     background-color: darkgoldenrod;
 }
+
+#logo-name {
+    animation: changelogo 5000ms infinite linear;
+}
+
+@keyframes changelogo {
+    0% {
+        opacity: 0;
+    }
+    30%,
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

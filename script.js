@@ -45,4 +45,12 @@ document.getElementById('carriers').addEventListener('click', () => {
     closeAll();
     carrierItemVisible = !carrierItemVisible;
 })
+let a = [`RVRJC <br>INNOVATION <br>TECHNOLOGY FOUNDATION`, `EVOLVE <br> WITH <br> EXCELLENCE`];
+let c = 0;
+logoname = document.getElementById('logo-name')
+logoname.innerHTML = a[0];
+setInterval(() => {
+    logoname.innerHTML = (logoname.innerHTML === a[0]) ? a[1] : a[0];
+
+}, 5000);
 AOS.init();

@@ -22,16 +22,15 @@
 </head>
 
 <body class="h-[100vh] scroll-bar-remove">
-    <div class="flex w-full flex-col scroll-bar-remove">
+    <div class="flex relative w-full flex-col scroll-bar-remove">
         <!-- navbar -->
-        <div class="sticky top-0 z-10 bg-white flex justify-between md:justify-start w-full h-[10vh] md:h-[15vh] items-center">
+        <div id="navbar" class="z-10 bg-white flex justify-between md:justify-start w-full h-[10vh] md:h-[15vh] items-center">
             <div class=" flex items-center   md:mx-4 w-3/4 md:w-1/3">
                 <div class="logo mx-2 w-[50px] h-[50px]  md:w-[85px] md:h-[85px]"></div>
                 <div class="font-bold text-[8px] mx-1  md:text-lg  ">
-                    <p class="">RVRJC</p>
-                    <p class="">INNOVATION</p>
-                    <!-- text-[#1AA309] text-[#C17015] text-[#8A00AA]-->
-                    <p class="">TECHNOLOGY FOUNDATION</p>
+                    <div id="logo-name">
+                        RVRJC <br>INNOVATION <br>TECHNOLOGY FOUNDATION
+                    </div>
                 </div>
             </div>
             <div class="hidden  items-center h-full md:flex flex-row w-1/2 font-semibold  justify-between">
@@ -162,7 +161,7 @@
             </div>
         </div>
         <!-- bootstrap Carousel -->
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -174,7 +173,7 @@
                         <img src="https://fitt-iitd.in/web/assets/images/ie-img.webp" class="absolute right-0 top-0 md:w-2/5" width="55%" alt="">
                     </div>
                     <div data-aos="fade-right" class="absolute w-1/2 md:w-2/5 top-8 md:top-24 text-white font-semibold text-[10px] md:text-xl left-3 md:left-12">
-                        <span class="block font-bold text-sm md:text-5xl text-green-700 md:my-10">
+                        <span class="block font-bold text-sm md:text-5xl text-gray-400 md:my-10">
                             Innovation & Entrepreneurship
                         </span> RJIT has adopted several programs to enrich the entrepreneurial eco-system and technology commercialization efforts at the Institute. FITT manages the incubator program at IIT Delhi.
                     </div>
@@ -184,7 +183,7 @@
                         <img src="https://fitt-iitd.in/web/assets/images/map.webp" class="absolute right-0 md:bottom-3 md:w-2/6" width="50%" alt="">
                     </div>
                     <div data-aos="fade-right" class="absolute w-1/2 md:w-2/5 top-8 md:top-24 text-white font-semibold text-[10px] md:text-xl left-3 md:left-12">
-                        <span class="block font-bold text-sm md:text-5xl text-green-700 md:my-10">
+                        <span class="block font-bold text-sm md:text-5xl text-white md:my-10">
                             Innovation & Entrepreneurship
                         </span> RJIT has adopted several programs to enrich the entrepreneurial eco-system and technology commercialization efforts at the Institute. FITT manages the incubator program at IIT Delhi.
                     </div>
@@ -506,14 +505,14 @@
                     <br>
                     <div class="flex my-2 items-center justify-around md:w-2/3 ">
                         <i class="fa-solid fa-location-dot text-red-600 "></i>
-                        <div class="text-left md:w-5/6 mx-3 md:mx-2 ">RVR JC College of engineering <br>Chowdavarams</div>
+                        <div class="text-left w-full md:w-5/6 mx-3 md:mx-1 "> RVR JC College of engineering <br>Chowdavaram</div>
                     </div>
                     <div class="flex my-2 items-center justify-around md:w-2/3 ">
-                        <i class="fa-regular fa-envelope text-white-600 "></i> &nbsp;&nbsp;
+                        <i class="fa-regular fa-envelope text-white-600 "></i>
                         <div class="text-left w-5/6 ">rvrjc@gmail.com</div>
                     </div>
                     <div class="flex my-2 items-center justify-around md:w-2/3 ">
-                        <i class="fa-solid fa-phone text-green-600 "></i> &nbsp;&nbsp;
+                        <i class="fa-solid fa-phone text-green-600 "></i>
                         <div class="text-left w-5/6 ">+91 9876543210</div>
                     </div>
                 </div>
@@ -542,6 +541,9 @@
             </div>
             <i class="hover:text-blue-400 " class="fa-solid fa-greater-than text- "></i> &nbsp;&nbsp;
         </div>
+        <a href="./newIdea.html" class="bg-[#1e3a8a] drop-shadow-lg text-sm md:text-2xl fixed  text-white py-2 md:py-3 px-4 md:px-5 right-2 md:right-10 bottom-6 z-10 md:animate-bounce   flex justify-center items-center rounded-full">
+            Have an Idea ?
+        </a>
     </div>
 </body>
 
