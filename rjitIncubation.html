@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Spark</title>
-    <script src="tailwind.js"></script>
-    <script src="script.js" defer></script>
+    <title>RJIT Incubation</title>
+    <script src="./JS/tailwind.js"></script>
+    <script src="./JS/script.js" defer></script>
     <link rel="shortcut icon" href="./Assets/logo/logo4.svg" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link href="./CSS/aos.css" rel="stylesheet">
+    <script src="./JS/aos.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Cedarville+Cursive&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
@@ -25,15 +25,16 @@
         <div class="z-10 loader flex"></div>
     </div>
     <!-- navbar -->
-    <div id="navbar" class="sticky top-0 left-0 z-10 bg-white flex justify-between md:justify-start w-full h-[10vh] md:h-[15vh] items-center">
-        <div class=" flex items-center   md:mx-4 w-3/4 md:w-1/3">
+    <div id="navbar" class="fixed top-0  z-10 bg-white flex justify-between md:justify-start w-full h-[10vh] items-center">
+        <a href="./index.html" class=" flex items-center   md:mx-4 w-3/4 md:w-1/3">
             <div class="logo mx-2 w-[50px] h-[50px]  md:w-[85px] md:h-[85px]"></div>
-            <div class="font-bold text-[8px] mx-1  md:text-lg  ">
+            <div class="font-bold text-[8px] mx-1  md:text-[13px]  ">
                 <div id="logo-name">
                     RVRJC <br>INNOVATION <br>TECHNOLOGY FOUNDATION
                 </div>
             </div>
-        </div>
+        </a>
+        <!-- desktop -->
         <div class="hidden  items-center h-full md:flex flex-row w-1/2 font-semibold  justify-between">
             <a href="./index.html" class=" c  flex flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
                 HOME
@@ -52,7 +53,7 @@
                     <a href="./itKnowledgePark.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                         IT Knowledge Park
                     </a>
-                    <a href="./startUpIndia.html" target="_blank" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                    <a href="./startUpIndia.html"  class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                         Build India 2023
                     </a>
                     <a href="./falcon.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
@@ -65,21 +66,21 @@
                     ABOUT
                 </div>
                 <div class="b flex rounded-lg  absolute top-[10vh] w-[200px] p-3 rounded-sm text-md flex-col font-normal bg-white">
-                    <div class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                    <a href="./aboutRjit.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                         About RJIT
-                    </div>
-                    <div class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                    </a>
+                    <a href="./boardAtDirectors.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                         Board of Directors
-                    </div>
-                    <div class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                    </a>
+                    <a href="./teams.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                         Team
-                    </div>
-                    <div class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                    </a>
+                    <a href="./guideLines.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                         Guidelines
-                    </div>
-                    <div class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                    </a>
+                    <a href="./faq.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                         FAQ
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="a  h-full  flex w-1/6 relative flex-col justify-center ">
@@ -96,7 +97,7 @@
 
                 </div>
             </div>
-            <a href="./partners.html" target="_blank" class="flex  c  flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
+            <a href="./partners.html" class="flex  c  flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
                 PARTNERS
             </a>
             <a href="#footer" class="flex c  flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
@@ -113,11 +114,11 @@
                         <div class="flex flex-col w-full ">
                             <div id="about">ABOUT</div>
                             <div id="aboutItems" class="flex flex-col leading-loose mt-3 w-full ">
-                                <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">About RJIT</div>
-                                <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Board Of Directors</div>
-                                <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Team</div>
-                                <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Guidelines</div>
-                                <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">FAQ's</div>
+                                <a href="./aboutRjit.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">About RJIT</a>
+                                <a href="./boardAtDirectors.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Board Of Directors</a>
+                                <a href="./teams.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Team</a>
+                                <a href="./guideLines.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Guidelines</a>
+                                <a href="./faq.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">FAQ's</a>
                             </div>
                         </div>
                         <i class="fa-solid fa-caret-down"></i>
@@ -130,7 +131,7 @@
                                 <a href="./cyberSpark.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Cyber Spark</a>
                                 <a href="./itKnowledgePark.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">IT Knowledge Park</a>
                                 <a href="./startUpIndia.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Build India 2023</a>
-                                <a href="falcon.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">FALCON</a>
+                                <a href="./falcon.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">FALCON</a>
                             </div>
                         </div>
                         <i class="fa-solid fa-caret-down"></i>
@@ -161,13 +162,12 @@
             </div>
         </div>
     </div>
-    <div class="flex relative w-full flex-col scroll-bar-remove">
+    <div class="flex top-[10vh] relative w-full flex-col scroll-bar-remove">
         <!-- working -->
         <img src="./Assets/Gif/working gif.gif" class="mx-auto" width="500px"/>
         <div class=" mx-auto mb-6 text-3xl">Work in progress</div>
-    </div>
-    <!-- footer -->
-    <div id="footer" class="flex items-center w-full pl-7 bg-black text-white flex-col ">
+        <!-- footer -->
+        <div id="footer" class="flex items-center w-full pl-7 bg-black text-white flex-col ">
             <div class="flex md:flex-row flex-col items-start my-10 h-full w-full justify-center ">
                 <!-- logo + links -->
                 <div class="flex flex-col my-2 md:flex-row md:w-3/5 justify-around items-center ">
@@ -182,31 +182,31 @@
 
                     <!-- useful links -->
                     <div class="flex flex-col ">
-                        <div class="text-2xl text-gray-600 ">
+                        <div class="text-xl md:text-2xl text-gray-600 ">
                             Useful links
                         </div>
                         <br>
-                        <div class="text-lg ">
+                        <div class="text-md md:text-lg ">
                             <a class="hover:text-blue-400 " href="https://rvrjcce.ac.in/researchActivities.php?menu=col "><i
                                         class="fa-solid fa-greater-than text-xs "></i>
                                     &nbsp;&nbsp;Reseach activities</a>
                         </div>
-                        <div class="text-lg my-1 ">
+                        <div class="text-md md:text-lg ">
                             <a class="hover:text-blue-400 " href="https://rvrjcce.ac.in/photogallery.php "><i
                                         class="fa-solid fa-greater-than text-xs "></i>
                                     &nbsp;&nbsp;Photo Galary</a>
                         </div>
-                        <div class="text-lg my-1 ">
+                        <div class="text-md md:text-lg ">
                             <a class="hover:text-blue-400 " href="https://rvrjcce.ac.in/ "><i
                                         class="fa-solid fa-greater-than text-xs "></i>
                                     &nbsp;&nbsp;College website</a>
                         </div>
-                        <div class="text-lg my-1 ">
+                        <div class="text-md md:text-lg ">
                             <a class="hover:text-blue-400 " href="https://rvrjcce.ac.in/iitb_about.php?menu=iitb "><i
                                         class="fa-solid fa-greater-than text-xs "></i>
                                     &nbsp;&nbsp;About</a>
                         </div>
-                        <div class="text-lg my-1 ">
+                        <div class="text-md md:text-lg ">
                             <a class="hover:text-blue-400 " href="https://rvrjcce.ac.in/newsletter-committee.php "><i
                                         class="fa-solid fa-greater-than text-xs "></i>
                                     &nbsp;&nbsp;News</a>
@@ -215,19 +215,19 @@
                 </div>
                 <!-- contact details -->
                 <div class="  flex flex-col my-2 md:w-2/5 ">
-                    <div class="text-2xl text-gray-600 ">Contact Us</div>
+                    <div class="text-xl md:text-2xl text-gray-600 ">Contact Us</div>
                     <br>
                     <div class= "flex my-2  items-center  justify-start md:w-2/3 ">
                         <i class="fa-solid  mr-3 fa-location-dot text-red-600 "></i>
-                        <div class="text-left w-full  md:w-5/6"> RVR JC College of engineering <br>Chowdavaram</div>
+                        <div class="text-left w-full text-md md:text-xl md:w-5/6"> RVR JC College of engineering <br>Chowdavaram</div>
                     </div>
                     <div class="flex my-2  items-center justify-start md:w-2/3 ">
                         <i class="fa-regular  mr-3 fa-envelope text-white-600 "></i>
-                        <div class="text-left w-5/6 ">rvrjc@gmail.com</div>
+                        <div class="text-left w-5/6 text-md md:text-xl ">rvrjc@gmail.com</div>
                     </div>
                     <div class="flex my-2 items-center justify-start md:w-2/3 ">
                         <i class="fa-solid  mr-3 fa-phone text-green-600 "></i>
-                        <div class="text-left w-5/6 ">+91 9876543210</div>
+                        <div class="text-left w-5/6 text-md md:text-xl ">+91 9876543210</div>
                     </div>
                 </div>
             </div>
@@ -254,6 +254,10 @@
                 Copyright reserver &copy;2023 RJIT. RVRJC. All Rights received.
             </div>
             <i class="hover:text-blue-400 " class="fa-solid fa-greater-than text- "></i> &nbsp;&nbsp;
+        </div>
+        <a href="./newIdea.html" class="bg-[#1e3a8a] drop-shadow-lg text-sm md:text-2xl fixed  text-white py-2 md:py-3 px-4 md:px-5 right-2 md:right-10 bottom-6 z-10 md:animate-bounce   flex justify-center items-center rounded-full">
+            Have an Idea ?
+        </a>
     </div>
 </body>
 </html>
