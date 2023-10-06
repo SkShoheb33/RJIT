@@ -37,6 +37,10 @@ body {
     color: #1e3a8a !important;
     background: white;
 }
+.cancle:hover {
+  background-color: rgba(128, 128, 128, 0.424) !important;
+  
+}
 
 #aboutItems,
 #programmesItems,
@@ -215,5 +219,5 @@ button:hover {
     z-index: 100 !important;
     justify-content: center;
     align-items: center;
-    background: #004aad;
+    background: rgba(0, 0, 0, 0.8);
 }

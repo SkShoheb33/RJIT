@@ -23,6 +23,7 @@
 
 <body class="h-[100vh] scroll-bar-remove">
     <div class="loading-page">
+        
         <div class="z-10 loader flex"></div>
     </div>
     <div class="flex relative w-full flex-col scroll-bar-remove">
@@ -89,12 +90,12 @@
                         CARRIERS
                     </div>
                     <div class="b flex rounded-lg  absolute top-[10vh] w-[200px] p-3 rounded-sm text-md flex-col font-normal bg-white">
-                        <div class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        <a href="./carriersAtRjit.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                             Carriers at RJIT
-                        </div>
-                        <div class="flex p-1 flex-col hover:cursor-pointer  hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        </a>
+                        <a href="./carriersAtRjitStartUp.html" class="flex p-1 flex-col hover:cursor-pointer  hover:bg-white hover:text-black rounded-sm hover:font-bold">
                             Carriers at RJIT Startups
-                        </div>
+                        </a>
 
                     </div>
                 </div>
@@ -141,8 +142,8 @@
                             <div class="flex flex-col w-full ">
                                 <div id="carriers">CARRIERS</div>
                                 <div id="carriersItems" class="flex flex-col leading-loose mt-3 w-full ">
-                                    <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Carriers at RJIT</div>
-                                    <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Carriers at RJIT Startups</div>
+                                    <a href="./carriersAtRjit.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Carriers at RJIT</a>
+                                    <a href="./carriersAtRjitStartUp.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Carriers at RJIT Startups</a>
                                 </div>
                             </div>
                             <i class="fa-solid fa-caret-down"></i>
@@ -205,25 +206,22 @@
             </div>
         </div>
         <!-- about -->
-        <div class="flex flex-col w-full  bg-gray-200 md:pt-6 md:pb-12">
-            <div class="flex flex-col mx-auto w-full md:w-3/4 text-center p-3">
-                <div class="md:text-4xl text-xl font-bold">ABOUT RJIT</div>
-                <div class="text-xs md:text-lg  text-justify md:text-center p-1 md:p-3">
-                    RVR & JC Innovation Technology (RJIT), is an umbrella organisation at RVR & JC for fostering entrepreneurship and nurturing tech start-ups. It administers a buRJITss incubator which provides ‘Start to scale’ support for technology based entrepreneurship
-                    and facilitates the conversion of research activity into entrepreneurial ventures.
-                </div>
-            </div>
-            <div class="flex   flex-col md:flex-row w-full md:w-4/5 mx-auto my-6">
+        <div class="flex flex-col w-full h-[60vh] justify-center items-center  bg-gray-200 md:pt-6 md:pb-12 ">
+            
+            <div class="flex items-start    flex-col md:flex-row w-full md:w-4/5 mx-auto my-6">
                 <!-- vedio -->
                 <div class="flex w-5/6 mx-auto md:w-3/6">
                     <video alt="vedio" controls src="./Assets/rvrcollege.mp4" class="rounded-sm"></video>
                 </div>
-                <!-- overview -->
-                <div class="flex text-xs md:text-lg flex-col w-full md:w-3/6 my-2  px-4 md:px-10 text-justify">
-                    <div class="text-2xl font-semibold my-2">Overview</div>
-                    Set up in 1985, it is one of the earliest incubators in academia with a potential to create startups focussing on economic growth, strategic value and social relevance. It gives prototyping grants, provides incubation support to tech startups and also
-                    runs accelerator prog id="a"rams in orate adds/hip. RJIT has been selected as “Centre of Excellence” by Department of Science and Technology (DST), GOI with funding support to scale up its activities. It has also been approved Biotechnology
-                    Industry Research Assistance Council (BIRAC) support under the aegis of Department of Bio Technology (DBT) to set up a Bio incubator ‘BioNEST’ to support the bio-med-tech startups.
+                <!-- about -->
+                <div class="flex px-3  text-xs md:text-lg flex-col w-full md:w-3/6 justify-between px-4 md:px-10 text-justify">
+                    <div class="text-lg md:text-2xl font-semibold leading-lg mt-3 md:mt-1 ">ABOUT RJIT</div>
+                    <br>
+                    <div class="">
+                        RVR & JC Innovation Technology (RJIT), is an umbrella organisation at RVR & JC for fostering entrepreneurship and nurturing tech start-ups. It administers a buRJITss incubator which provides ‘Start to scale’ support for technology based entrepreneurship
+                        and facilitates the conversion of research activity into entrepreneurial ventures.
+                    </div>
+                    <div class="flex bg-[#001f59] w-2/5 mt-4 md:w-1/4 items-center justify-center viewbtn hover:cursor-pointer md:my-7 py-1 px-3 md:py-2 md:px-7 text-white rounded-sm">View all</div>
                 </div>
             </div>
         </div>
@@ -523,19 +521,19 @@
                     </div>
                 </div>
                 <!-- contact details -->
-                <div class="flex flex-col my-2 md:w-2/5 ">
+                <div class="  flex flex-col my-2 md:w-2/5 ">
                     <div class="text-2xl text-gray-600 ">Contact Us</div>
                     <br>
-                    <div class="flex my-2 items-center justify-around md:w-2/3 ">
-                        <i class="fa-solid fa-location-dot text-red-600 "></i>
-                        <div class="text-left w-full md:w-5/6 mx-3 md:mx-1 "> RVR JC College of engineering <br>Chowdavaram</div>
+                    <div class= "flex my-2  items-center  justify-start md:w-2/3 ">
+                        <i class="fa-solid  mr-3 fa-location-dot text-red-600 "></i>
+                        <div class="text-left w-full  md:w-5/6"> RVR JC College of engineering <br>Chowdavaram</div>
                     </div>
-                    <div class="flex my-2 items-center justify-around md:w-2/3 ">
-                        <i class="fa-regular fa-envelope text-white-600 "></i>
+                    <div class="flex my-2  items-center justify-start md:w-2/3 ">
+                        <i class="fa-regular  mr-3 fa-envelope text-white-600 "></i>
                         <div class="text-left w-5/6 ">rvrjc@gmail.com</div>
                     </div>
-                    <div class="flex my-2 items-center justify-around md:w-2/3 ">
-                        <i class="fa-solid fa-phone text-green-600 "></i>
+                    <div class="flex my-2 items-center justify-start md:w-2/3 ">
+                        <i class="fa-solid  mr-3 fa-phone text-green-600 "></i>
                         <div class="text-left w-5/6 ">+91 9876543210</div>
                     </div>
                 </div>

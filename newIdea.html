@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Cedarville+Cursive&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body class="scroll-bar-remove">
+    <!-- loader -->
     <div class="loading-page">
         <div class="z-10 loader flex"></div>
     </div>
@@ -86,21 +87,21 @@
                     CARRIERS
                 </div>
                 <div class="b flex rounded-lg  absolute top-[10vh] w-[200px] p-3 rounded-sm text-md flex-col font-normal bg-white">
-                    <div class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                    <a href="./carriersAtRjit.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
                         Carriers at RJIT
-                    </div>
-                    <div class="flex p-1 flex-col hover:cursor-pointer  hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                    </a>
+                    <a href="./carriersAtRjitStartUp.html" class="flex p-1 flex-col hover:cursor-pointer  hover:bg-white hover:text-black rounded-sm hover:font-bold">
                         Carriers at RJIT Startups
-                    </div>
+                    </a>
 
                 </div>
             </div>
             <a href="./partners.html" target="_blank" class="flex  c  flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
                 PARTNERS
             </a>
-            <div class="flex c  flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
+            <a href="#footer" class="flex c  flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
                 CONNECT
-            </div>
+            </a>
         </div>
         <!-- mobile screen -->
         <div class="md:hidden mx-8 relative">
@@ -138,8 +139,8 @@
                         <div class="flex flex-col w-full ">
                             <div id="carriers">CARRIERS</div>
                             <div id="carriersItems" class="flex flex-col leading-loose mt-3 w-full ">
-                                <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Carriers at RJIT</div>
-                                <div class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Carriers at RJIT Startups</div>
+                                <a href="./carriersAtRjit.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Carriers at RJIT</a>
+                                <a href="./carriersAtRjitStartUp.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Carriers at RJIT Startups</a>
                             </div>
                         </div>
                         <i class="fa-solid fa-caret-down"></i>
@@ -160,37 +161,21 @@
             </div>
         </div>
     </div>
-    <div class="flex flex-col  w-full  scroll-bar-remove ">
-        <div class="flex w-full relative text-md md:text-4xl   h-[7vh] ">
-            <a href="./index.html" class="flex w-1/3  md:w-1/6 absolute left-0 top-4 md:left-10 md:top-4 justify-around items-center">
-                <i class="fa-solid fa-arrow-left"></i> Home
-            </a>
-            <div class="w-3/5  md:w-1/3 flex absolute right-0 md:right-10 top-4 text-white  justify-around md:justify-around text-xs md:text-xl font-bold w-1/4">
-                <button class=" w-1/3 md:w-2/5 bg-[#1e3a8a] px-1 py-1 md:py-2 ">
-                    Login
-                </button>
-                <button class=" w-1/3 md:w-2/5 bg-[#1e3a8a] px-1 py-1 md:py-2 ">
-                    Signup
-                </button>
-            </div>
-        </div>
+    <div class="relative flex flex-col  w-full  scroll-bar-remove ">
+        <!-- form -->
         <div class="flex w-full items-center justify-center my-14 ">
-            <form class=" drop-shadow-xl p-5 py-2 rounded-xl text-white">
-                
+            <form class="w-4/5 md:w-1/2">
                 <div class="space-y-12">
-                <div class=" border-gray-900/10 pb-12">
-                    <div class="flex w-2/3 mx-auto justify-center items-center">
-                        <div class="logo w-1/2 h-[100px] ">
-                        </div>
-                        <div class="flex tracking-widest mx-2 text-black font-bold text-xs  md:text-3xl">RVR & JC Innovation technology</div>
-                    </div>
+                <div class="border-b border-gray-900/10 pb-12">
+                    <h2 class="text-base font-semibold leading-7 text-gray-900">Profile</h2>
+                    <p class="mt-1 text-sm leading-6 text-gray-600">This information will be reviewed by our team and we will be contact soon.</p>
+            
                     <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                     <div class="sm:col-span-4">
                         <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Idea title</label>
                         <div class="mt-2">
                         <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-                        
-                            <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="janesmith">
+                            <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="title">
                         </div>
                         </div>
                     </div>
@@ -198,14 +183,14 @@
                     <div class="col-span-full">
                         <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Description</label>
                         <div class="mt-2">
-                        <textarea id="about" name="about" rows="3" placeholder="Brief your idea" class=" p-4 bg-transparent block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                        <textarea id="about" name="about" rows="5" placeholder="give a brief description of your idea." class="p-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
                         </div>
-                        <p class="mt-3 text-sm leading-6 text-gray-600">Write a few sentences about idea.</p>
                     </div>
             
+                    
             
                     <div class="col-span-full">
-                        <label for="cover-photo" class="block text-sm font-medium leading-6 text-gray-900">Demo Video </label>
+                        <label for="cover-photo" class="block text-sm font-medium leading-6 text-gray-900">Demo video</label>
                         <div class="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10">
                         <div class="text-center">
                             <svg class="mx-auto h-12 w-12 text-gray-300" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -213,13 +198,12 @@
                             </svg>
                             <div class="mt-4 flex text-sm leading-6 text-gray-600">
                             <label for="file-upload" class="relative cursor-pointer rounded-md bg-white font-semibold text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500">
-                                <span class="p-2">Upload a file</span>
-                                <input id="file-upload" name="file-upload" type="fil
-                                e" class="sr-only">
+                                <span>Upload a file</span>
+                                <input id="file-upload" name="file-upload" type="file" class="sr-only">
                             </label>
                             <p class="pl-1">or drag and drop</p>
                             </div>
-                            <p class="text-xs leading-5 text-gray-600">mp4 up to 25MB</p>
+                            <p class="text-xs leading-5 text-gray-600">PNG, JPG, GIF up to 10MB</p>
                         </div>
                         </div>
                     </div>
@@ -227,43 +211,58 @@
                 </div>
             
                 <div class="border-b border-gray-900/10 pb-12">
-                    <h2 class="text-base font-semibold leading-7 text-gray-900">Notifications</h2>
-                    <p class="mt-1 text-sm leading-6 text-gray-600">We'll always let you know about important changes, but you pick what else you want to hear about.</p>
+                    <h2 class="text-base font-semibold leading-7 text-gray-900">Personal Information</h2>
+                    <p class="mt-1 text-sm leading-6 text-gray-600">Use a permanent address where you can receive mail.</p>
             
-                    <div class="mt-10 space-y-10">
-                    <fieldset>
-                        <legend class="text-sm font-semibold leading-6 text-gray-900">Contact by</legend>
-                        <div class="mt-6 space-y-6">
-                        <div class="relative flex gap-x-3">
-                            <div class="flex h-6 items-center">
-                            <input id="email" name="email" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600">
-                            </div>
-                            <div class="text-sm leading-6">
-                            <label for="email" class="font-medium text-gray-900">Email</label>
-                            <p class="text-gray-500">Publicly share my email to everyone.</p>
-                            </div>
+                    <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                    <div class="sm:col-span-3">
+                        <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
+                        <div class="mt-2">
+                        <input type="text" placeholder="John" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                         </div>
-                        <div class="relative flex gap-x-3">
-                            <div class="flex h-6 items-center">
-                            <input id="Phone" name="Phone" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600">
-                            </div>
-                            <div class="text-sm leading-6">
-                            <label for="Phone" class="font-medium text-gray-900">Phone</label>
-                            <p class="text-gray-500">Publicly share my phone number to everyone.</p>
-                            </div>
+                    </div>
+            
+                    <div class="sm:col-span-3">
+                        <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
+                        <div class="mt-2">
+                        <input type="text" placeholder="Doe" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                         </div>
+                    </div>
+            
+                    <div class="sm:col-span-4">
+                        <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+                        <div class="mt-2">
+                        <input id="email" placeholder="name@gmail.com" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                         </div>
-                    </fieldset>
-                    
+                    </div>
+                    <div class="sm:col-span-4">
+                        <label for="email" class="block text-sm font-medium leading-6 text-gray-900">phone number</label>
+                        <div class="mt-2">
+                        <input id="email" placeholder="9876543210" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
+            
+            
+                    <div class="col-span-full">
+                        <label for="street-address" class="block text-sm font-medium leading-6 text-gray-900">Roll number</label>
+                        <div class="mt-2">
+                        <input type="text" name="street-address" placeholder="ex: y20cs167" id="street-address" autocomplete="street-address" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
                     </div>
                 </div>
+            
+                
                 </div>
                 <div class="mt-6 flex items-center justify-end gap-x-6">
-                <button type="button" class="text-sm font-semibold leading-6 px-2 py-1 text-gray-900">Cancel</button>
-                <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Post</button>
+                    <button type="button" class="cancle text-sm rounded-md font-semibold border-none  text-gray-900 px-3 py-2">Cancel</button>
+                    <button type="submit" class="text-xl rounded-md font-semibold border-2 text-gray-900 px-3 py-2 bg-[#1e3a8a] text-white">Post</button>
                 </div>
             </form>
         </div>
+        <img class="hidden md:block z-2 fixed left-8" src="./Assets/forms/enterprenuers1.jpg" width="300px" alt="">
+        <img class="hidden md:block z-2 fixed right-8 transform -scale-x-100" src="./Assets/forms/enterprenuers2.jpg" width="280px" alt="">
     </div>
+    
 </body>
 </html>
