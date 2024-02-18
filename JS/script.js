@@ -13,7 +13,7 @@ togglebtn.addEventListener('click', () => {
         listItems.style.display = "none";
     }
 });
-closeAll = () => {
+let closeAll = () => {
     if (aboutItemsVisisble) {
         document.getElementById('aboutItems').style.display = 'none'
         aboutItemsVisisble = false;
@@ -45,7 +45,7 @@ document.getElementById('carriers').addEventListener('click', () => {
     closeAll();
     carrierItemVisible = !carrierItemVisible;
 })
-let a = [`RVRJC <br>INNOVATION <br>TECHNOLOGY FOUNDATION`, `EVOLVE <br> WITH <br> EXCELLENCE`];
+let a = [`RVRJC <br>Enterprise <br>Nest`, `Innovation <br> Meets <br> Oppurtunity`];
 let c = 0;
 logoname = document.getElementById('logo-name')
 logoname.innerHTML = a[0];
